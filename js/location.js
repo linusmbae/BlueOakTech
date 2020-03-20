@@ -10,9 +10,8 @@ $(document).ready(function()
                       "<br><br></div>"
                       );
 });
-$("#myFunction").click(function(e)
+$("#myFunction").click(function()
 {
-  e.preventDefault();
   let name=$("#contactName").val()
   let email=$("#contactEmail").val();
   let message=$("#contactMessage").val();
