@@ -38,19 +38,37 @@
               <hr>
 
               <br><br>
-    <div class="contai">
-                  <form>
+              <div class="row">
+
+                <div class="col-md-6" id="contai">
+                    <form action="MAIL TO:linusmutugi5178@gmail.com" method="post" enctype="text/plain">
+                          <br>
+                          <input id="contactName" class="form-control-lg" type="text" name="FNAME" placeholder="name...">
+                          <input id="contactEmail" class="form-control-lg" type="email" name="EMAIL" placeholder="email...">
+                          <br><br>
+                          <textarea id="contactMessage" class="form-control" name="MESSAGE" rows="8" cols="80" placeholder="message..."></textarea>
+                          <br>
+                          <br>
+                          <button class="btn-secondary" type="reset" name="button" onclick="myFunction()">Clear</button>
+                          <button class="btn-primary" type="submit" name="button" id="myFunction">Send</button>
                         <br>
-                        <input id="contactName" class="form-control-lg" type="text" name="FNAME" placeholder="name...">
-                        <input id="contactEmail" class="form-control-lg" type="text" name="EMAIL" placeholder="email...">
-                        <br><br>
-                        <textarea id="contactMessage" class="form-control" name="MESSAGE" rows="8" cols="80" placeholder="message..."></textarea>
-                        <br>
-                        <br>
-                        <button class="btn-primary" type="submit" name="button" onclick="myFunction()">Send</button>
-                        <br>
-                        <br>
-                  </form>
+                          <br>
+                    </form>
+                </div>
+                <br>
+                <div class="col-md-4">
+                  <p> <strong>Contact us and we will get back to you whihin 24hrs</strong> </p>
+                  <p>
+                    <span id="locator"><img id="locator" src="img/img_303807.png" alt="">  Kikuyu, Shell</span>
+                    <br><br>
+                    <img id="myContacts" src="img/phone.png" alt=""> <span> 0714 719935 / 0788 778876</span>
+                    <br><br>
+                    <img id="myContacts" src="img/mail.png" alt=""> <span> blueoaktech.co.ke</span>
+                  </p>
+                </div>
+              </div>
+              <div class="jumbotron" id="locate">
+
               </div>
               <br><br>
               <div class="card-footer">
@@ -58,5 +76,6 @@
               </div>
     </div>
   </div>
+  <script src="js/location.js" charset="utf-8"></script>
   </body>
 </html>
