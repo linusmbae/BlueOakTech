@@ -1,0 +1,23 @@
+$(document).ready(function()
+{
+  $("#view").click(function()
+{
+  $("#hideToggle").toggle();
+  $("#showToggle").toggle();
+});
+$("#view1").click(function()
+{
+  $("#hideToggle").toggle();
+$("#showToggle").toggle();
+});
+$("#view2").click(function()
+{
+  $("#hideToggle").toggle();
+$("#showToggle").toggle();
+});
+$("#core").click(function()
+{
+  $("#flipShow").toggle();
+$("#flipHide").toggle();
+});
+});
