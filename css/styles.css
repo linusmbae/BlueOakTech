@@ -29,6 +29,15 @@
   text-align: center;
   color: white;
   font-size: 20px;
+  width: 50%;
+}
+#contactName
+{
+  float: left;
+}
+#contactEmail
+{
+  float: right;
 }
 #contai textarea
 {
@@ -81,4 +90,30 @@
 #locateMe
 {
   background-color: black;
+}
+.carousel-control.right, .carousel-control.left {
+   background-image: none;
+   color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+#flipHide
+{
+  display: none;
+  text-align: left;
+  text-decoration: none;
+}
+#hideToggle
+{
+  display: none;
+}
+#portf
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
 }
