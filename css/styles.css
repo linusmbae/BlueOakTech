@@ -20,7 +20,7 @@
   background-image: url("../img/3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 60%;
+  width: auto;
   margin-left: 10px;
 }
 #contai input
