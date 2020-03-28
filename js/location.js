@@ -20,7 +20,16 @@ $("#myFunction").click(function()
     alert("empty input");
   }else
   {
+    // $.ajax({
+    //   url:"https://formspree.io/linusmutugi5178@gmail.com",
+    //   method: "POST",
+    //   data: $(this).serialize(),
+    //   dataType: "json"
+    // });
     alert("Hello "+name+"? We have received your email. We will reach out to you soon.");
+    // $("#contactName").val("")
+    // $("#contactEmail").val("");
+    // $("#contactMessage").val("");
   }
 });
 
