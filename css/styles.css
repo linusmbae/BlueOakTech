@@ -85,14 +85,13 @@
 {
   height: 20px;
   width: 20px;
-  cursor: progress;
-  color: black;
 }
 #locator
 {
   height: 20px;
   width: 20px;
   cursor: progress;
+  color: blue;
 }
 #locateMe
 {
@@ -123,4 +122,9 @@
   height: 100px;
   width: 100px;
   border-radius: 20px;
+}
+#myA
+{
+  text-decoration: none;
+  cursor: progress;
 }
